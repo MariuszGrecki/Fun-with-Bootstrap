@@ -13,7 +13,16 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
-    background-color: #333;
+}
+
+[id] {
+    scroll-margin-top: 84px;
+}
+
+@media (min-width: 992px) {
+    [id] {
+        scroll-margin-top: 69px;
+    }
 }
 
 .hero-shadow {
@@ -58,4 +67,53 @@ body {
     padding: 1em 2em;
     font-size: 1.4rem;
     text-transform: uppercase;
+}
+
+.home .welcome-text {
+    font-size: 2.2 rem;
+}
+
+.aboutus-box h3 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.aboutus-icon {
+    font-size: 4rem;
+}
+
+.accordion-button {
+    padding: 1em;
+    font-size: 1.8rem;
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(233, 106, 22);
+    background-color: rgb(248, 248, 248);
+}
+
+/* team */
+.team {
+    background-color: rgb(248, 248, 248);
+}
+
+.team .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.team .card-title {
+    font-size: 2rem;
+}
+
+/*contact*/
+
+.contact h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact .submit-btn {
+    font-size: 1.6rem;
 }
