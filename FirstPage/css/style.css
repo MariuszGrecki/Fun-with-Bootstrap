@@ -23,6 +23,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,.8);
+    z-index: -1
 }
 
 .orange-color {
@@ -36,6 +37,25 @@ body {
     text-transform: uppercase;
 }
 
-.nav-link {
+.nav-link, .navbar-toggler-icon {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+/* sekcja powitalna */
+
+.home {
+    position: relative;
+    height: 60rem;
+    z-index: 0;
+    background-image: url('../img/sunset-g91f59c749_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.home .btn {
+    padding: 1em 2em;
+    font-size: 1.4rem;
     text-transform: uppercase;
 }
