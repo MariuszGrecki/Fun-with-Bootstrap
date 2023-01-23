@@ -14,3 +14,20 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
 }
+
+/* nawigacja */
+
+nav {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    font-size: 3rem;
+}
+
+.navbar-brand {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
