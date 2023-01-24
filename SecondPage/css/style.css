@@ -87,6 +87,11 @@ header {
     z-index: 0;
 }
 
+.home-brand h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 @media (min-width: 1400px) {
     .carousel-item {
         height: 600px;
@@ -103,4 +108,8 @@ header {
     .carousel-img-three {
         background-image: url('../img/main-carousel-3-hq.jpg');
     }
+}
+/*footer*/
+footer {
+    font-size: 1.6rem;
 }
