@@ -43,6 +43,18 @@ nav {
 }
 
 /*header*/
+.home-boxes {
+    padding: 5rem 0;
+}
+
+.home-box i {
+    font-size: 4rem;
+}
+
+.home-box h3 {
+    font-size: 2.6rem;
+}
+
 header {
     font-size: 2rem;
 }
@@ -64,6 +76,15 @@ header {
 
 .carousel-img-three {
     background-image: url('../img/main-carousel-3.jpg');
+}
+
+.home-passion {
+    position:relative;
+    height: 350px;
+    background-image: url('../img/sunset-g4ee0a63b2_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
 }
 
 @media (min-width: 1400px) {
