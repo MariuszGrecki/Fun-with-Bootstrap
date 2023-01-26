@@ -89,9 +89,149 @@
 
                         <div id="chart" class="py-5 text-dark"></div>
                     </section>
+
+                    <section class="main-table p-5">
+                        <div class="d-flex justify-content-between">
+
+                            <h3 class="mb-3 text-light">Ostatnie posty:</h3>
+
+                            <div class="dropdown">
+                                <button class="btn btn-outline-light dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sortuj
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Według dat</a></li>
+                                    <li><a class="dropdown-item" href="#">Według autora</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <table class="table table-transparent text-light">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Temat</th>
+                                    <th scope="col">Użytkownik</th>
+                                    <th scope="col">Data</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td colspan="2">Larry the Bird</td>
+                                    <td>@twitter</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <nav aria-label="Page navigation example" class="d-flex justify-content-center">
+                            <ul class="pagination">
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                  <span aria-hidden="true">&laquo;</span>
+                                </a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                  <span aria-hidden="true">&raquo;</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+
+                    </section>
                 </div>
 
-                <div class="col-3 p-4 text-light text-center aside"></div>
+                <aside class="col-3 p-4 text-light text-center pe-5">
+
+                    <section class="logo py-4">
+                        <p class="logo-text">
+                            <i class="bi bi-gem"></i> Diamond
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, ducimus.</p>
+                    </section>
+
+                    <section class="users-online py-5">
+                        <h3>Użytkownicy online</h3>
+                        <p>47</p>
+                    </section>
+                    <section class="users-gender py-4">
+                        <h3>płeć użytkowników</h3>
+                        <div class="row m-0">
+                            <div class="col-6 box">
+                                <i class="bi bi-person"></i>
+                                <p>56%</p>
+                            </div>    
+                            <div class="col-6 box">
+                                <i class="bi bi-person"></i>
+                                <p>44%</p>
+                            </div>      
+                        </div>
+                    </section>
+
+                    <section class="monthly-stats py-5">
+                        <h3>Statystyki</h3>
+                        <div class="form-group mb-4">
+                            <select  class="form-select bg-transparent text-light" name="" id="">
+                                <option value="" selected>styczeń</option>
+                                <option value="" selected>luty</option>
+                                <option value="" selected>marzec</option>
+                                <option value="" selected>kwiecień</option>
+                            </select>
+                        </div>
+
+                        <div class="row m-0">
+                            <div class="col-6 mb-4">
+                                <p class="info">Posty</p>
+                                <p class="number">125.703</p>
+                            </div>
+
+                            <div class="col-6 mb-4">
+                                <p class="info">Posty</p>
+                                <p class="number">125.703</p>
+                            </div>
+
+                            <div class="col-6 mb-4">
+                                <p class="info">Posty</p>
+                                <p class="number">125.703</p>
+                            </div>
+
+                            <div class="col-6 mb-4">
+                                <p class="info">Posty</p>
+                                <p class="number">125.703</p>
+                            </div>
+
+                            <div class="col-6 mb-4">
+                                <p class="info">Posty</p>
+                                <p class="number">125.703</p>
+                            </div>
+
+                            <div class="col-6 mb-4">
+                                <p class="info">Posty</p>
+                                <p class="number">125.703</p>
+                            </div>
+                        </div>
+
+                    </section>
+
+                </aside>
             </div>
 
         </div>
